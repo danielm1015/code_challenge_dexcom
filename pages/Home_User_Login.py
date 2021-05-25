@@ -4,9 +4,10 @@ import selenium
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from webium import BasePage
+
 from environment import *
 from lib.browser import driver
-from webium import BasePage
 
 
 class HomeUserLogin(BasePage):
@@ -29,4 +30,3 @@ class HomeUserLogin(BasePage):
         password_textfield.click()
         password_textfield.send_keys(os.path.expandvars(config_data["passwords"][username]))
         login_btn.click()
-
