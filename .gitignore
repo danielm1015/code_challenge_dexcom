@@ -1,3 +1,5 @@
 config.json
 behave.ini
 __pycache__/
+pages/__pycache__/
+lib/__pycache__
