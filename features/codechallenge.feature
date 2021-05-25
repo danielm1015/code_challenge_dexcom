@@ -6,7 +6,7 @@ Feature: Dexcom Coding Challenge
         Then user is authorized
 
     # Scenario: Session Analysis
-    #     Given  endpoint
+    #     Given "clarity.dexcom.com/" endpoint
     #     When post to call 
     #     Then analysis in None
 
